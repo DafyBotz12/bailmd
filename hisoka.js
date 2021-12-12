@@ -86,7 +86,7 @@ let asep = "\`\`\`"
 
         switch(command) {
 	    case 'sc': {
-                m.reply('Script = YTNKS\n\nDONATE = GOPAY=081379753850')
+                m.reply('Script = YTNKS\n\nDONATE = KETIK .DONASI')
             }
             break
 case 'tiktok2': {
@@ -320,12 +320,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:;ᴅᴀғʏFTsᴇʟᴇɴᴀ.;;;'
-                    + 'FN:ᴅᴀғʏFTsᴇʟᴇɴᴀ\n' // full name
+                    + 'N:;𝕯𝖍𝖆𝖋𝖞𝕲𝖆𝖓𝖟.;;;'
+                    + 'FN:𝕯𝖆𝖋𝖞𝕲𝖆𝖓𝖟\n' // full name
                     + 'ORG:Owner Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6283127014833:+62 831-2701-4833\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=6281379753850:+62 895-7975-3850\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Kahfz-', contacts: [{ vcard }] } }, { quoted: m })
+                hisoka.sendMessage(m.chat, { contacts: { displayName: '𝕶𝖍𝖆𝖉𝖆𝖋𝖞', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'eval': {
@@ -353,7 +353,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let buttonMessage = {
                     image: {url: 'https://telegra.ph/file/2c7aed57fd545d88805b1.jpg' },
                     caption: `Hello @${m.sender.split("@")[0]}`,
-                    footerText: 'Hi Im Kahfz Bot',
+                    footerText: 'Hi Im 𝕶𝖍𝖆𝖉𝖆𝖋𝖞 Bot',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -502,27 +502,27 @@ case 'alquran':
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'ᴍʏ ɢɪᴛʜᴜʙ ᴏᴡɴᴇʀ🥶',
+                                    displayText: '𝕸𝖄 𝕲𝖎𝖙𝖍𝖚𝖇 𝕺𝖜𝖓𝖊𝖗',
                                     url: 'https://github.com/DafyBotz12'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'ᴄᴀʟʟ ᴏᴡɴᴇʀ',
+                                    displayText: '𝕺𝖜𝖓𝖊𝖗 𝖓𝖚𝖒𝖇𝖊𝖗',
                                     phoneNumber: '+62 813-7975-3850'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '📸ʙᴏᴛ sᴛᴀᴛᴜs',
+                                    displayText: '𝕻𝖎𝖓𝖌 𝕭𝖔𝖙',
                                     id: 'ping'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ',
+                                    displayText: '𝕮𝖔𝖓𝖙𝖆𝖈𝖙 𝕺𝖜𝖓𝖊𝖗',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'sᴄʀɪᴘᴛ',
+                                    displayText: '𝕾𝖈𝖗𝖎𝖕𝖙',
                                     id: 'sc'
                                 }
                             }]
